@@ -1,0 +1,90 @@
+<html>
+<head>
+  <metta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
+    <title>registration</title>
+
+    </head>
+<body bgcolor=#dcf1e8 text=grey >
+  <div style='background-color:#024249;'   style='padding:40px'  style='border:solid 50px';>
+  <h1><font color=white face ="comic sans ms ">LOGIN FOR ACCOUNT!</font></h1>
+  </div>
+  <div padding:20px  border:solid 10px;>
+  <form class=""action="" method="post" enctype="text/plain">
+    <center><lable for="post-name"><strong>User Name:</strong></lable>
+    <input type="text" name="your name" value="" placeholder="first name"><input type="text" name="your name" value="" placeholder="middle name"><input type="text" name="your name" value="" placeholder="last name"><br></center>
+    <br>
+    <center><label for="datemin"><strong>Date of birth:</strong></label>
+    <input type="date" id="datemin" name="datemin" min="1911-01-02"></center>
+    <br>
+    <center><lable for="post-name"><strong>Email Id</strong></lable>
+    <input type="email" name="your email" value=""></center>
+    <br>
+    <center><lable for="post-name"><strong>Password</strong></lable>
+    <input type="password" name="your password" value=""><br></center>
+    <br>
+    <center><b><input type="button" name="login" value='generate'></b></center>
+    <br>
+    <center><label for="datemin"><strong>Login date:</strong></label>
+    <input type="date" id="datemin" name="datemin" min="1911-01-02"></center>
+    <br>
+    <center><lable for="post-name"><strong>Permanent Address</strong></lable>
+    <input type="text" name="your address" value="" size="40"><br></center>
+      <br>
+    <center><label for="phone">Phone number:</label>
+    <input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"></center>
+    <br>
+    <center><lable for="post-name"><strong>State</strong></lable>
+      <input list="Andhra Pradesh">
+    <datalist id="Andhra Pradesh">
+      <option value="Arunachal Pradesh">
+      <option value="Assam">
+      <option value="Bihar">
+      <option value="Chhattisgarh">
+      <option value="Goa">
+      <option value="Gujarat">
+      <option value="Haryana">
+      <option value="Himachal Pradesh">
+      <option value="Jammu and Kashmir">
+      <option value="Jharkhand">
+      <option value="Karnataka">
+      <option value="Kerala">
+      <option value="Madhya Pradesh">
+      <option value="Maharashtra">
+      <option value="Manipur">
+      <option value="Meghalaya">
+      <option value="Nagaland">
+      <option value="Orissa">
+      <option value="Punjab">
+      <option value="Rajasthan">
+      <option value="Sikkim">
+      <option value="Tamil Nadu">
+      <option value="Telangana">
+      <option value="Tripura">
+      <option value="Uttar Pradesh">
+      <option value="Uttarakhand">
+      <option value="West Bengal">
+    </datalist>
+    <center><p><b><em>All information are under eyes of user?</em></b><input type="checkbox" name="" value=""><br></p></center>
+    <center><b><input type="submit" name="" value='Login'></b></center>
+    <hr width=25%>
+   </form>
+ </div>
+ <button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var txt;
+  var person = prompt("Please enter your name:", "Harry Potter");
+  if (person == null || person == "") {
+    txt = "User cancelled the prompt.";
+  } else {
+    txt = "Hello " + person + "! How are you today?";
+  }
+  document.getElementById("demo").innerHTML = txt;
+}
+</script>
+
+  </body>
+  </html>
